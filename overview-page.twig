@@ -3,6 +3,35 @@
 {# role - define the contributor role to be listed #}
 {# contributor_column - define the contributor role to be listed #}
 
+<script>
+  window.podcastData = {
+    "title": "Einschlafen Podcast",
+    "subtitle": "Langweilige Texte mit beruhigender Stimme vorgetragen, damit Ihr einschlafen könnt.",
+    "description": "Entspannung und Ablenkung pur, damit Ihr besser einschlafen könnt. Wenn es Euch mal zu sehr interessiert, einfach nächste Episode laden, dann ist es bestimmt wieder langweiliger.",
+    "cover": "http://einschlafen-podcast.de/wp-content/uploads/2012/05/logo_einschlafen_podcast_1400px.png",
+    "feeds": [
+      {
+        "type": "audio",
+        "format": "mp3",
+        "url": "http://einschlafen-podcast.de/feed/mp3",
+        "variant": "high"
+      },
+      {
+        "type": "audio",
+        "format": "aac",
+        "url": "http://einschlafen-podcast.de/feed/aac",
+        "variant": "high"
+      },
+      {
+        "type": "audio",
+        "format": "opus",
+        "url": "http://einschlafen-podcast.de/feed/opus",
+        "variant": "high"
+      }
+    ]
+  }
+</script>
+<script class="podlove-subscribe-button" src="https://cdn.podlove.org/subscribe-button/javascripts/app.js" data-language="de" data-size="small" data-json-data="podcastData" data-colors="#F29400;#FFAF45;#FFAF45" data-buttonid="123abc" data-hide="false"></script>
 
 {% import "metaebene-macros" as metaebene %}
 
